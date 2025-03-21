@@ -1,5 +1,5 @@
-# block bin
+# exclude bin files
 /bin
 
-# block vs
+# exclude vs files
 /.vs
