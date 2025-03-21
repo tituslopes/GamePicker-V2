@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamePicker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c182e0dc217f1189128e454605cc7bc2cf31ab9")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamePicker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamePicker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tito\\source\\repos\\Study\\newCode\\GamePicker.csproj",
+      "projectUniqueName": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\GamePicker.csproj",
       "projectName": "GamePicker",
-      "projectPath": "C:\\Users\\Tito\\source\\repos\\Study\\newCode\\GamePicker.csproj",
+      "projectPath": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\GamePicker.csproj",
       "packagesPath": "C:\\Users\\Tito\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tito\\source\\repos\\Study\\newCode\\obj\\",
+      "outputPath": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
