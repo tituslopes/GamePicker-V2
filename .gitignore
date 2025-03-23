@@ -2,4 +2,5 @@
 /bin
 
 # exclude vs files
-/.vs
+.vs/
+GamePicker-V2/.vs

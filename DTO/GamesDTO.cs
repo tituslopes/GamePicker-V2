@@ -7,19 +7,6 @@ using System.Threading.Tasks;
 
 namespace GamePicker.DTO
 {
-    public class SteamApiResponseDTO
-    {
-        [JsonPropertyName("response")]
-        public SteamResponseDTO Response { get; set; }
-    }
-    public class SteamResponseDTO
-    {
-        [JsonPropertyName("total_count")]
-        public int TotalCount { get; set; }
-        [JsonPropertyName("games")]
-        public List<GamesDTO> Games { get; set; }
-    }
-
     public class GamesDTO
     {
         [JsonPropertyName("appid")]

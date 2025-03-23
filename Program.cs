@@ -21,10 +21,11 @@ namespace GamePicker
                 Console.WriteLine("Please inform the Steam ID: ");
                 string? steamId = Console.ReadLine();
                 string urlParameters = $"?key={apiKey}&steamid={steamId}&format=json";
-                GetGames(apiKey, steamId, urlParameters);
+                GetRecentlyPlayedGames(apiKey, steamId, urlParameters);
             }
-            private static async Task GetGames(string apiKey, string steamId, string urlParameters) 
+            private static async Task GetRecentlyPlayedGames(string apiKey, string steamId, string urlParameters)
             {
+                var gamesDict = new Dictionary<int, string>();
                 client.BaseAddress = new Uri(URL);
                 client.DefaultRequestHeaders.Accept.Add(
                     new MediaTypeWithQualityHeaderValue("application/json"));
@@ -38,15 +39,12 @@ namespace GamePicker
                     Console.WriteLine($"HTTP Status Code: {response.StatusCode} ({response.ReasonPhrase})");
                     if (response.IsSuccessStatusCode)
                     {
-                        var apiResponse = await response.Content.ReadFromJsonAsync<SteamApiResponseDTO>();
+                        var apiResponse = await response.Content.ReadFromJsonAsync<RecentlyPlayedGamesDTO>();
                         if (apiResponse?.Response.Games != null)
                         {
                             foreach (var game in apiResponse.Response.Games)
                             {
-                                Console.WriteLine($"Game: {game.Name}");
-                                Console.WriteLine($"App ID: {game.AppId}");
-                                Console.WriteLine($"Playtime (2 Weeks): {game.PlaytimeTwoWeeks / 60} hours");
-                                Console.WriteLine($"Playtime: {game.PlaytimeForever / 60} hours");
+                                gamesDict.Add(game.AppId, game.Name);
                             }
                         }
                     }
@@ -60,6 +58,39 @@ namespace GamePicker
                     Console.WriteLine($"HTTP Request Error: {ex.Message}");
                 }
             }
+
+            private static async Task GetOwnedGames(string apiKey, string steamId, string urlParameters)
+            {
+                var ownedGamesDict = new Dictionary<int, string>();
+                client.BaseAddress = new Uri(URL);
+                client.DefaultRequestHeaders.Accept.Add(
+                    new MediaTypeWithQualityHeaderValue("application/json"));
+
+                try
+                {
+                    string fullUrl = URL + urlParameters;
+                    Console.WriteLine($"Request URL: {fullUrl}");
+
+                    HttpResponseMessage response = client.GetAsync(fullUrl).Result;
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var apiResponse = await response.Content.ReadFromJsonAsync<OwnedGamesDTO>();
+                        if (apiResponse?.Response.Games != null)
+                        {
+                            foreach (var game in apiResponse.Response.Games)
+                            {
+                                ownedGamesDict.Add(game.AppId, game.Name);
+                            }
+                        }
+                    }
+                }
+
+                catch (HttpRequestException ex)
+                {
+                    Console.WriteLine($"HTTP Request Error: {ex.Message}");
+                }
+            }
+
         }
     }
 }
