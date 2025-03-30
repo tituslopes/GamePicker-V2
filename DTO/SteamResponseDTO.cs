@@ -14,6 +14,6 @@ namespace GamePicker.DTO
         [JsonPropertyName("total_count")]
         public int TotalCount { get; set; }
         [JsonPropertyName("games")]
-        public List<GamesDTO> Games { get; set; }
+        public List<GameDTO> Games { get; set; }
     }
 }

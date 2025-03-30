@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GamePicker.DTO
 {
-    public class GamesDTO
+    public class GameDTO
     {
         [JsonPropertyName("appid")]
         public int AppId { get; set; }

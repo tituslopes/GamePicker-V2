@@ -1,30 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\",
+  "WorkspaceRootPath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|c:\\users\\tito\\source\\repos\\study\\gamepicker-v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85ABDB01-B989-4BFF-A2D8-57DFD4FA48F6}|..\\Core\\GamePicker.Domain.csproj|c:\\users\\thiago\\source\\repos\\core\\interfaces\\steamrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|c:\\users\\tito\\source\\repos\\study\\gamepicker-v2\\infraestructure\\steamrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|solutionrelative:infraestructure\\steamrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\steam\\steamrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:steam\\steamrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|c:\\users\\tito\\source\\repos\\study\\gamepicker-v2\\dto\\gamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|solutionrelative:dto\\gamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\dto\\gamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:dto\\gamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|c:\\users\\tito\\source\\repos\\study\\gamepicker-v2\\dto\\ownedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|solutionrelative:dto\\ownedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\dto\\steamresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:dto\\steamresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|c:\\users\\tito\\source\\repos\\study\\gamepicker-v2\\dto\\steamresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|solutionrelative:dto\\steamresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85ABDB01-B989-4BFF-A2D8-57DFD4FA48F6}|..\\Core\\GamePicker.Domain.csproj|c:\\users\\thiago\\source\\repos\\core\\model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|c:\\users\\tito\\source\\repos\\study\\gamepicker-v2\\dto\\recentlyplayedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.csproj|solutionrelative:dto\\recentlyplayedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\dto\\recentlyplayedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:dto\\recentlyplayedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\dto\\ownedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:dto\\ownedgamesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\gamepicker.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:gamepicker.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|c:\\users\\thiago\\source\\repos\\gamepicker-v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E819F0-CF04-48DC-B28C-0A2EE34EBEEF}|GamePicker.Infrastructure.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,30 +44,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GamePicker.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "GamePicker.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj",
+              "RelativeToolTip": "GamePicker.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-30T17:26:07.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Core\\Model\\Game.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Model\\Game.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Core\\Model\\Game.cs",
+              "RelativeToolTip": "..\\Core\\Model\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T23:17:11.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SteamRequests.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\Core\\Interfaces\\SteamRequests.cs",
+              "RelativeDocumentMoniker": "..\\Core\\Interfaces\\SteamRequests.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\Core\\Interfaces\\SteamRequests.cs",
+              "RelativeToolTip": "..\\Core\\Interfaces\\SteamRequests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T23:15:35.642Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SteamRequests.cs",
-              "DocumentMoniker": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\Infraestructure\\SteamRequests.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\SteamRequests.cs",
-              "ToolTip": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\Infraestructure\\SteamRequests.cs",
-              "RelativeToolTip": "Infraestructure\\SteamRequests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\Steam\\SteamRequests.cs",
+              "RelativeDocumentMoniker": "Steam\\SteamRequests.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\Steam\\SteamRequests.cs",
+              "RelativeToolTip": "Steam\\SteamRequests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T20:39:10.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SteamResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\SteamResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\SteamResponseDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SteamResponseDTO.cs",
-              "ToolTip": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\SteamResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\SteamResponseDTO.cs",
               "RelativeToolTip": "DTO\\SteamResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T17:42:31.68Z",
               "EditorCaption": ""
@@ -65,23 +113,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GamesDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\GamesDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\GamesDTO.cs",
-              "ToolTip": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\GamesDTO.cs",
-              "RelativeToolTip": "DTO\\GamesDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Title": "GameDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\GameDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\GameDTO.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\GameDTO.cs",
+              "RelativeToolTip": "DTO\\GameDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T17:39:37.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "OwnedGamesDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\OwnedGamesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\OwnedGamesDTO.cs",
               "RelativeDocumentMoniker": "DTO\\OwnedGamesDTO.cs",
-              "ToolTip": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\OwnedGamesDTO.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\OwnedGamesDTO.cs",
               "RelativeToolTip": "DTO\\OwnedGamesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,26 +138,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowC8AAABJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T16:53:54.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T16:53:54.782Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "RecentlyPlayedGamesDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\RecentlyPlayedGamesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\RecentlyPlayedGamesDTO.cs",
               "RelativeDocumentMoniker": "DTO\\RecentlyPlayedGamesDTO.cs",
-              "ToolTip": "C:\\Users\\Tito\\source\\repos\\Study\\GamePicker-V2\\DTO\\RecentlyPlayedGamesDTO.cs",
+              "ToolTip": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\DTO\\RecentlyPlayedGamesDTO.cs",
               "RelativeToolTip": "DTO\\RecentlyPlayedGamesDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T16:48:20.678Z",
               "EditorCaption": ""
