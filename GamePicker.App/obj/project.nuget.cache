@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iR3MTqNYYTc=",
+  "dgSpecHash": "zl1v23fY7CI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.App\\GamePicker.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Thiago\\.nuget\\packages\\microsoft.aspnet.webapi.client\\6.0.0\\microsoft.aspnet.webapi.client.6.0.0.nupkg.sha512",
     "C:\\Users\\Thiago\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.3\\microsoft.extensions.configuration.9.0.3.nupkg.sha512",

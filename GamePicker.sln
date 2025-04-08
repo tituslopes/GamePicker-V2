@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamePicker.Infrastructure",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamePicker.Domain", "..\Core\GamePicker.Domain.csproj", "{85ABDB01-B989-4BFF-A2D8-57DFD4FA48F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePicker.App", "GamePicker.App\GamePicker.App.csproj", "{FF6E362D-7E93-42C8-8B7A-D61495AABFDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{85ABDB01-B989-4BFF-A2D8-57DFD4FA48F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85ABDB01-B989-4BFF-A2D8-57DFD4FA48F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85ABDB01-B989-4BFF-A2D8-57DFD4FA48F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6E362D-7E93-42C8-8B7A-D61495AABFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6E362D-7E93-42C8-8B7A-D61495AABFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6E362D-7E93-42C8-8B7A-D61495AABFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6E362D-7E93-42C8-8B7A-D61495AABFDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

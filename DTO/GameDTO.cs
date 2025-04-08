@@ -5,12 +5,12 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace GamePicker.DTO
+namespace GamePicker.Infrastructure.DTO
 {
     public class GameDTO
     {
         [JsonPropertyName("appid")]
-        public int AppId { get; set; }
+        public int AppId { get; init; }
         [JsonPropertyName("name")]
         public string? Name { get; set; }
         [JsonPropertyName("playtime_2weeks")]

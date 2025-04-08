@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace GamePicker.DTO
+namespace GamePicker.Infrastructure.DTO
 {
     public class RecentlyPlayedGamesDTO
     {

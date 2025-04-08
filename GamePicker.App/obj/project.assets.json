@@ -789,6 +789,22 @@
         "runtime": {
           "bin/placeholder/GamePicker.Domain.dll": {}
         }
+      },
+      "GamePicker.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "GamePicker.Domain": "1.0.0",
+          "Microsoft.AspNet.WebApi.Client": "6.0.0",
+          "Microsoft.Extensions.Hosting": "9.0.3",
+          "Microsoft.Extensions.Http": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/GamePicker.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GamePicker.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1985,16 +2001,21 @@
     },
     "GamePicker.Domain/1.0.0": {
       "type": "project",
-      "path": "../Core/GamePicker.Domain.csproj",
-      "msbuildProject": "../Core/GamePicker.Domain.csproj"
+      "path": "../../Core/GamePicker.Domain.csproj",
+      "msbuildProject": "../../Core/GamePicker.Domain.csproj"
+    },
+    "GamePicker.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../GamePicker.Infrastructure.csproj",
+      "msbuildProject": "../GamePicker.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "GamePicker.Domain >= 1.0.0",
-      "Microsoft.AspNet.WebApi.Client >= 6.0.0",
-      "Microsoft.Extensions.Hosting >= 9.0.3",
-      "Microsoft.Extensions.Http >= 9.0.3"
+      "GamePicker.Infrastructure >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection >= 9.0.3",
+      "Microsoft.Extensions.Hosting >= 9.0.3"
     ]
   },
   "packageFolders": {
@@ -2003,11 +2024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj",
-      "projectName": "GamePicker.Infrastructure",
-      "projectPath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.App\\GamePicker.App.csproj",
+      "projectName": "GamePicker.App",
+      "projectPath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.App\\GamePicker.App.csproj",
       "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\obj\\",
+      "outputPath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2027,6 +2048,9 @@
           "projectReferences": {
             "C:\\Users\\Thiago\\source\\repos\\Core\\GamePicker.Domain.csproj": {
               "projectPath": "C:\\Users\\Thiago\\source\\repos\\Core\\GamePicker.Domain.csproj"
+            },
+            "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Thiago\\source\\repos\\GamePicker-V2\\GamePicker.Infrastructure.csproj"
             }
           }
         }
@@ -2046,15 +2070,11 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Client": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          },
-          "Microsoft.Extensions.Hosting": {
+          "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[9.0.3, )"
           },
-          "Microsoft.Extensions.Http": {
+          "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[9.0.3, )"
           }
